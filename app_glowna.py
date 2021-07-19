@@ -8,7 +8,7 @@ try:
     from cezara import *
     from playfair import *
     from plotkowy import *
-    from vinegrene import *
+    from vigenere import *
 except:
     # informacja dla użytkownika, jeśli wystąpił jakiś błąd
     print("Problem przy imporcie modułów dodatkowych - sprawdź ich istnienie.")

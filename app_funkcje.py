@@ -1,6 +1,7 @@
 # plik zawierający dodatkowe funkcje
 import sys
 
+
 def pomoc(app_main: object):
     # Funkcja wyświetlająca pomoc w trybie nieinteraktywnym
 
@@ -31,8 +32,10 @@ Szyfrogram: ('GTAOLZPONZSLNJENCBXAOMZY', ['O', 'P', 'E', 'N', 'S', 'U', 'R', 'C'
     print(tekst)
     sys.exit(0)
 
+
 def zapis_dziennika(logging: object, info: str):
     from datetime import datetime
+
     czas = datetime.now()
-    log = f"({czas}) - {info}" 
+    log = f"({czas}) - {info}"
     logging.info(log)
